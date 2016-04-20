@@ -32,8 +32,8 @@ Then write the following code in your **Application**:
 
 @Override
 protected void attachBaseContext(Context base) {
-TurboDex.enableTurboDex();
-super.attachBaseContext(base);
+  TurboDex.enableTurboDex();
+  super.attachBaseContext(base);
 }
 
 
@@ -51,4 +51,4 @@ DexFile.loadDex(...);
 
 
 ##Remark
-QQ Group:**535498571**
+QQ Group: **535498571**
