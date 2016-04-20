@@ -13,7 +13,7 @@ it will be finished in **a very short time**.
 # Quick Start Guide
 
 ## Building TurboDex
-TurboDex has given you a **pre-compiled** version in **/Prebuild**,
+TurboDex has given you a **pre-compiled** version in **/Prebuilt**,
 if you need to custom the TurboDex, you need to install **Android-NDK**.
 
 ```
