@@ -1,6 +1,6 @@
 TurboDex: Fast load dex in memory
 --------
-
+[中文](CHINESE.md "中文")
 It is generally known that load an **unoptimized Dex file** at runtime
 in Android (especially in **ART mode**) would take a **long time**.
 When your App is using **MultiDex or PluginFramework**,
