@@ -25,6 +25,29 @@ SharedLibrary  : libturbo-dex.so
 Install        : libturbo-dex.so => libs/x86/libturbo-dex.so
 ```
 
+
+
+## Config
+
+#### Maven
+
+```xml
+<dependency>
+  <groupId>com.github.asLody</groupId>
+  <artifactId>turbodex</artifactId>
+  <version>1.0.0</version>
+  <type>pom</type>
+</dependency>
+```
+
+#### Gradle
+
+```groovy
+compile 'com.github.asLody:turbodex:1.0.0'
+```
+
+
+
 ## Usage
 To use TurboDex, first add **library** to your project,
 Then write the following code in your **Application**:
