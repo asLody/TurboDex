@@ -1,7 +1,8 @@
 TurboDex: Fast load dex in memory
+--------
+
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-TurboDex-green.svg?style=true)](https://android-arsenal.com/details/1/3456)
 
---------
 [中文](CHINESE.md "中文")
 
 It is generally known that load an **unoptimized Dex file** at runtime
