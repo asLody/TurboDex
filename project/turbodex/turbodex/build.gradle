@@ -5,14 +5,14 @@ android {
     buildToolsVersion "23.0.3"
 
     defaultConfig {
-        minSdkVersion 15
+        minSdkVersion 9
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
 
         ndk {
             moduleName "turbo-dex"
-            cFlags "-DANDROID_NDK -D_RELEASE -fpermissive"
+            cFlags "-std=c++11 -fexceptions -frtti -fpermissive"
             ldLibs "log"
             stl "gnustl_static"
             abiFilters "arm64-v8a", "armeabi", "armeabi-v7a", "x86", "x86_64"
