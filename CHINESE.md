@@ -32,7 +32,7 @@ Install        : libturbo-dex.so => libs/x86/libturbo-dex.so
 <dependency>
   <groupId>com.github.asLody</groupId>
   <artifactId>turbodex</artifactId>
-  <version>1.0.0</version>
+  <version>1.1.0</version>
   <type>pom</type>
 </dependency>
 ```
@@ -40,7 +40,7 @@ Install        : libturbo-dex.so => libs/x86/libturbo-dex.so
 #### Gradle
 
 ```groovy
-compile 'com.github.asLody:turbodex:1.0.0'
+compile 'com.github.asLody:turbodex:1.1.0'
 ```
 
 
