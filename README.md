@@ -21,7 +21,7 @@ TurboDex has given you a **pre-compiled** version in **/Prebuilt**,
 if you need to custom the TurboDex, you need to install **Android-NDK**.
 
 ```
-✘ lody@MacBook-Pro  ~/TurboDex/TurboDex/jni> ndk-build                  
+✘ lody@MacBook-Pro ~/TurboDex/TurboDex/jni> ndk-build                  
 SharedLibrary  : libturbo-dex.so
 Install        : libturbo-dex.so => libs/armeabi/libturbo-dex.so
 SharedLibrary  : libturbo-dex.so
