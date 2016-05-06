@@ -74,6 +74,12 @@ new DexClassLoader(...):
 DexFile.loadDex(...);
 ```
 
+##Others analysis and comment
+http://note.youdao.com/share/?id=28e62692d218a1f1faef98e4e7724f22&type=note#/
+然而，不知道这篇笔记的作者为什么会认为Hook模块是我实现的，
+我并没有给Substrate那部分的模块自己命名，而是采用了原名：MSHook，
+而且，
+所有的Cydia源码我也保留了头部的协议申明，你知道源码的出处，却没有意识到这一点？
 
 ##Remark
 QQ Group: **535498571**
