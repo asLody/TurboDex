@@ -69,8 +69,6 @@ protected void attachBaseContext(Context base) {
 After your **enable** the TurboDex, No matter where you load the Dex, it will return quickly.
 Example:
 ```
-MultiDex.install(this);
-
 new DexClassLoader(...):
 
 DexFile.loadDex(...);
