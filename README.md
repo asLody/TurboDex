@@ -76,6 +76,7 @@ DexFile.loadDex(...);
 
 ##Others analysis and comment
 http://note.youdao.com/share/?id=28e62692d218a1f1faef98e4e7724f22&type=note#/
+
 然而，不知道这篇笔记的作者为什么会认为Hook模块是我实现的，
 我并没有给Substrate那部分的模块自己命名，而是采用了原名：MSHook，
 而且，
