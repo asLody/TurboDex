@@ -62,13 +62,17 @@ protected void attachBaseContext(Context base) {
 
 **开启** TurboDex后, 下列调用都不再成为拖慢你App运行的元凶:
 ```
-MultiDex.install(this);
-
 new DexClassLoader(...):
 
 DexFile.loadDex(...);
 ```
+##其它的分析和评论
+http://note.youdao.com/share/?id=28e62692d218a1f1faef98e4e7724f22&type=note#/
 
+然而，不知道这篇笔记的作者为什么会认为Hook模块是我实现的，
+我并没有给Substrate那部分的模块自己命名，而是采用了原名：MSHook，
+而且，
+所有的Cydia源码我也保留了头部的协议申明，你知道源码的出处，却没有意识到这一点？
 
 ##Remark
 QQ Group: **535498571**
