@@ -11,7 +11,7 @@ LOCAL_SRC_FILES := \
 	MSHook/Hooker.cpp \
 	MSHook/PosixMemory.cpp \
 	MSHook/util.cpp \
-	Core/FastLoadDex.cpp \
+	core/FastLoadDex.cpp \
 	XJniHook.cpp
 LOCAL_LDLIBS	:= -llog
 include $(BUILD_SHARED_LIBRARY)
