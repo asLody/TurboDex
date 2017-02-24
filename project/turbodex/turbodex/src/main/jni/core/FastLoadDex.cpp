@@ -11,15 +11,15 @@ static bool enable = false;
 int (*org_execv)(const char *name, char **argv);
 
 int my_execv(const char *name, char **argv) {
-		#ifdef DEBUG
-		LOGD("#execv %s.", name);
-		#endif
+	#ifdef DEBUG
+	LOGD("#execv %s.", name);
+	#endif
 
-		if(enable && strcmp(name, DEX2OAT_BIN) == 0) {
-			exit(0);
-		}
+	if(enable && strcmp(name, DEX2OAT_BIN) == 0) {
+		exit(0);
+	}
 		
-  		return org_execv(name, argv);
+  	return org_execv(name, argv);
 }
 
 void enableFastLoadDex() {
