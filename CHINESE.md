@@ -65,7 +65,7 @@ new DexClassLoader(...):
 
 DexFile.loadDex(...);
 ```
-##其它的分析和评论
+## 其它的分析和评论
 http://note.youdao.com/share/?id=28e62692d218a1f1faef98e4e7724f22&type=note#/
 
 然而，不知道这篇笔记的作者为什么会认为Hook模块是我实现的，
@@ -73,5 +73,5 @@ http://note.youdao.com/share/?id=28e62692d218a1f1faef98e4e7724f22&type=note#/
 而且，
 所有的Cydia源码我也保留了头部的协议申明，你知道源码的出处，却没有意识到这一点？
 
-##Remark
+## Remark
 QQ Group: **535498571**
